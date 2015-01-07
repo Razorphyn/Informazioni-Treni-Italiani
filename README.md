@@ -17,6 +17,7 @@ $response->localita->nomeLungo;
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/autocompletaStazione/{STRINGA_DI_RICERCA}`
 
 RISPOSTA: TESTO 
+
 CONTENUTO:
 ```
 NOME_STAZIONE|ID_STAZIONE
@@ -30,6 +31,7 @@ NOME_STAZIONE|ID_STAZIONE
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/elencoStazioni/{ID_REGIONE}`
 
 RISPOSTA:	ARRAY
+
 CONTENUTO:
 ```
 Array
@@ -104,7 +106,9 @@ Array
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/elencoStazioniCitta/{ID_STAZIONE}`
 
 RISPOSTA:	JSON/ARRAY
-CONTENUTO: Numero indici uguali al numero di alternative
+
+CONTENUTO: 
+Numero indici uguali al numero di alternative
 ```
 Array
 (
@@ -125,6 +129,7 @@ Array
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/regione/{ID_STAZIONE}`
 
 RISPOSTA:	TESTO(NUMERO)
+
 CONTENUTO:	ID_REGIONE -> Numero
 
 
@@ -133,6 +138,7 @@ CONTENUTO:	ID_REGIONE -> Numero
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/dettaglioStazione/{ID_STAZIONE}/{ID_REGIONE}`
 
 RISPOSTA: JSON
+
 CONTENUTO:
 ```
 stdClass Object
@@ -205,6 +211,7 @@ URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/partenze/
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/arrivi/{ID_STAZIONE}/{DATA} [FORMATO: Wed Jan 07 2015 18:58:25 GMT+0100 (ora solare Europa occidentale)]`
 
 RISPOSTA:	JSON
+
 CONTENUTO:
 Numero indici uguale al numero di destinazioni
 ```
@@ -345,6 +352,7 @@ Numero indici uguale al numero di destinazioni
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/andamentoTreno/{ID_STAZIONE}/{NUMERO_TRENO}`
 
 RISPOSTA:	JSON
+
 CONTENUTO:
 ```
 [tipoTreno] => PG
@@ -557,6 +565,7 @@ CONTENUTO:
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/tratteCanvas/{ID_STAZIONE}/{NUMERO_TRENO}`
 
 RISPOSTA: JSON
+
 CONTENUTO:
 Numero indici uguale al numero di stazioni
 ```
@@ -632,6 +641,7 @@ Numero indici uguale al numero di stazioni
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/soluzioniViaggioNew/{NUMERO_STAZIONE_PARTENZA}/{NUMERO_STAZIONE_ARRIVO}/{DATA} (formato: yyyy-mm-ddThh:mm:ss)`
 
 RISPOSTA: JSON
+
 CONTENUTO:
 Numero indici uguale al numero di soluzioni
 ```
@@ -668,6 +678,7 @@ stdClass Object
 
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/datimeteo/0`
 RISPOSTA: JSON
+
 CONTENUTO:
 ```
 stdClass Object
