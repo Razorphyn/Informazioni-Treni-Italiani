@@ -649,3 +649,35 @@ stdClass Object
 		)
 )
 ```
+
+
+###INFORMAZIONI METEO
+
+URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/datimeteo/0`
+RISPOSTA: JSON
+CONTENUTO:
+```
+stdClass Object
+(
+    [ID_STAZIONE] => stdClass Object
+        (
+            [codStazione] => ID_STAZIONE
+            [oggiTemperatura] => NUMERO
+            [oggiTemperaturaMattino] => NUMERO
+            [oggiTemperaturaPomeriggio] => NUMERO
+            [oggiTemperaturaSera] => NUMERO
+            [oggiTempo] => NUMERO
+            [oggiTempoMattino] => NUMERO
+            [oggiTempoPomeriggio] => NUMERO
+            [oggiTempoSera] => NUMERO
+            [domaniTemperatura] => NUMERO
+            [domaniTemperaturaMattino] => NUMERO
+            [domaniTemperaturaPomeriggio] => NUMERO
+            [domaniTemperaturaSera] => NUMERO
+            [domaniTempo] => NUMERO
+            [domaniTempoMattino] => NUMERO
+            [domaniTempoPomeriggio] => NUMERO
+            [domaniTempoSera] => NUMERO
+        )
+		...
+```
