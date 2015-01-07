@@ -19,7 +19,7 @@ URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/autocompl
 
 RISPOSTA: TESTO
 
-CONTENIUTO:
+CONTENUTO:
 ```
 NOME_STAZIONE|ID_STAZIONE
 NOME_STAZIONE|ID_STAZIONE
