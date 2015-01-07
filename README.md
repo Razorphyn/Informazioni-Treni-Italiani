@@ -2,12 +2,22 @@
 
 Metodo per ottenere informazioni sui treni di trenitalia, trenord e compagnia bella.
 
+Esempio chiamata:
+```
+$response = file_get_contents('URL');
+$response = json_decode($response);
+```
+Esempio accesso informazioni:
+```
+$response->localita->nomeLungo;
+```
+
 ###AUTOCOMPLETAMENTO STAZIONE
 
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/autocompletaStazione/{STRINGA_DI_RICERCA}`
 
-RISPOSTA: TESTO
-CONTENIUTO:
+RISPOSTA: TESTO 
+CONTENUTO:
 ```
 NOME_STAZIONE|ID_STAZIONE
 NOME_STAZIONE|ID_STAZIONE
