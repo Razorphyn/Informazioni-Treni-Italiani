@@ -612,3 +612,40 @@ Numero indici uguale al numero di stazioni
             [trattaType] => 0
         )
 ```
+
+
+###OTTENERE VIAGGI
+
+URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/soluzioniViaggioNew/{NUMERO_STAZIONE_PARTENZA}/{NUMERO_STAZIONE_ARRIVO}/{DATA} (formato: yyyy-mm-ddThh:mm:ss)`
+
+RISPOSTA: JSON
+CONTENUTO:
+Numero indici uguale al numero di soluzioni
+```
+stdClass Object
+(
+    [soluzioni] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [durata] => TEMPO (hh:mm)
+                    [vehicles] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [origine] => STAZIONE_PARTENZA
+                                    [destinazione] => STAZIONE_ARRIVO
+                                    [orarioPartenza] => ORARIO_PARTENZA (formato yyyy-mm-ddThh:mm:ss esempio:2015-01-08T05:18:00)
+                                    [orarioArrivo] => ORARIO_ARRIVO (formato yyyy-mm-ddThh:mm:ss esempio:2015-01-08T05:18:00)
+                                    [categoria] => NUMERO
+                                    [categoriaDescrizione] => SIGLA (esempio REG)
+                                    [numeroTreno] => NUMERO_TRENO
+                                )
+
+                        )
+
+                )
+				...
+		)
+)
+```
