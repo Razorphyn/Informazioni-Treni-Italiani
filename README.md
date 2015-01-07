@@ -1,6 +1,6 @@
 #Informazioni Treni Italiani
 
-Metodo per ottenere informazioni sui treni di trenitalia, trenord e compagnia bella.
+Metodo per ottenere informazioni a scopo e utilizzo personale sui treni di trenitalia, trenord e compagnia bella.
 
 Esempio chiamata:
 ```
