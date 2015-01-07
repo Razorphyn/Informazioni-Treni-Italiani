@@ -12,13 +12,14 @@ Esempio accesso informazioni:
 $response->localita->nomeLungo;
 ```
 
+
 ###AUTOCOMPLETAMENTO STAZIONE
 
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/autocompletaStazione/{STRINGA_DI_RICERCA}`
 
-RISPOSTA: TESTO 
+RISPOSTA: TESTO
 
-CONTENUTO:
+CONTENIUTO:
 ```
 NOME_STAZIONE|ID_STAZIONE
 NOME_STAZIONE|ID_STAZIONE
@@ -107,8 +108,7 @@ URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/elencoSta
 
 RISPOSTA:	JSON/ARRAY
 
-CONTENUTO: 
-Numero indici uguali al numero di alternative
+CONTENUTO: Numero indici uguali al numero di alternative
 ```
 Array
 (
@@ -273,15 +273,8 @@ Numero indici uguale al numero di destinazioni
             [compOrientamento] => Array
                 (
                     [0] => --
-                    [1] => --
-                    [2] => --
-                    [3] => --
-                    [4] => --
-                    [5] => --
-                    [6] => --
-                    [7] => --
-                    [8] => --
-                )
+					...
+				)
 
             [compTipologiaTreno] => CATEGORIA
             [compClassRitardoTxt] => 
@@ -416,14 +409,7 @@ CONTENUTO:
     [descOrientamento] => Array
         (
             [0] => --
-            [1] => --
-            [2] => --
-            [3] => --
-            [4] => --
-            [5] => --
-            [6] => --
-            [7] => --
-            [8] => --
+            ...
         )
 
     [compOraUltimoRilevamento] => 19:38
@@ -486,14 +472,7 @@ CONTENUTO:
     [compOrientamento] => Array
         (
             [0] => --
-            [1] => --
-            [2] => --
-            [3] => --
-            [4] => --
-            [5] => --
-            [6] => --
-            [7] => --
-            [8] => --
+            ...
         )
 
     [compTipologiaTreno] => regionale
@@ -530,27 +509,13 @@ CONTENUTO:
     [compInStazionePartenza] => Array
         (
             [0] => 
-            [1] => 
-            [2] => 
-            [3] => 
-            [4] => 
-            [5] => 
-            [6] => 
-            [7] => 
-            [8] => 
+            ...
         )
 
     [compInStazioneArrivo] => Array
         (
             [0] => 
-            [1] => 
-            [2] => 
-            [3] => 
-            [4] => 
-            [5] => 
-            [6] => 
-            [7] => 
-            [8] => 
+            ...
         )
 
     [compOrarioEffettivoArrivo] => /vt_static/img/legenda/icone_legenda/regolare.png20:42
@@ -618,14 +583,7 @@ Numero indici uguale al numero di stazioni
             [orientamento] => Array
                 (
                     [0] => --
-                    [1] => --
-                    [2] => --
-                    [3] => --
-                    [4] => --
-                    [5] => --
-                    [6] => --
-                    [7] => --
-                    [8] => --
+                    ...
                 )
 
             [nextTrattaType] => 1
@@ -638,7 +596,7 @@ Numero indici uguale al numero di stazioni
 
 ###OTTENERE VIAGGI
 
-URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/soluzioniViaggioNew/{NUMERO_STAZIONE_PARTENZA}/{NUMERO_STAZIONE_ARRIVO}/{DATA} (formato: yyyy-mm-ddThh:mm:ss)`
+URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/soluzioniViaggioNew/{NUMERO_STAZIONE_PARTENZA}/{NUMERO_STAZIONE_ARRIVO}/{DATA} (formato: 2015-01-08T00:00:00)`
 
 RISPOSTA: JSON
 
@@ -677,6 +635,7 @@ stdClass Object
 ###INFORMAZIONI METEO
 
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/datimeteo/0`
+
 RISPOSTA: JSON
 
 CONTENUTO:
