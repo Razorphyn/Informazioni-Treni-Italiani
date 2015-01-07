@@ -99,12 +99,25 @@ Array
 ```
 
 
-###SCONOSCIUTO
+###OTTENERE LE STAZIONI ALTERNATIVE DELLA CITT
 
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/elencoStazioniCitta/{ID_STAZIONE}`
 
-RISPOSTA:	???JSON???
-CONTENUTO:	???
+RISPOSTA:	JSON/ARRAY
+CONTENUTO: Numero indici uguali al numero di alternative
+```
+Array
+(
+    [0] => stdClass Object
+        (
+            [nomeLungo] => NOME_STAZIONE
+            [nomeBreve] => NOME_STAZIONE
+            [label] => NOME_CITT
+            [id] => ID_STAZIONE
+        )
+	...
+)
+```
 
 
 ###CODICE NUMERICO REGIONE
