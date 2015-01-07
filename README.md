@@ -1,3 +1,5 @@
+Metodo per ottenere informazioni sui treni di trenitalia, trenord e compagnia bella.
+
 ###AUTOCOMPLETAMENTO STAZIONE
 
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/autocompletaStazione/{STRINGA_DI_RICERCA}`
