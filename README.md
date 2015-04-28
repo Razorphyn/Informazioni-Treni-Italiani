@@ -27,6 +27,19 @@ NOME_STAZIONE|ID_STAZIONE
 ```
 
 
+###AUTOCOMPLETAMENTO STAZIONE
+
+URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/cercaNumeroTrenoTrenoAutocomplete/{NUMERO_TRENO}`
+
+RISPOSTA: TESTO
+
+CONTENUTO:
+```
+NUMERO_TRENO - NOME_STAZIONE_PARTENZA | NUMERO_TRENO - CODICE_STAZIONE
+...
+```
+
+
 ###ELENCO STAZIONI REGIONE
 
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/elencoStazioni/{ID_REGIONE}`
