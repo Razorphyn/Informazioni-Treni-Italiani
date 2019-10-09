@@ -1,4 +1,4 @@
-#Informazioni Treni Italiani
+# Informazioni Treni Italiani
 
 Metodo per ottenere informazioni a scopo e utilizzo personale sui treni di trenitalia, trenord e compagnia bella.
 
@@ -13,7 +13,7 @@ $response->localita->nomeLungo;
 ```
 
 
-###AUTOCOMPLETAMENTO STAZIONE
+### AUTOCOMPLETAMENTO STAZIONE
 
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/autocompletaStazione/{STRINGA_DI_RICERCA}`
 
@@ -27,7 +27,7 @@ NOME_STAZIONE|ID_STAZIONE
 ```
 
 
-###AUTOCOMPLETAMENTO STAZIONE
+### AUTOCOMPLETAMENTO STAZIONE
 
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/cercaNumeroTrenoTrenoAutocomplete/{NUMERO_TRENO}`
 
@@ -40,7 +40,7 @@ NUMERO_TRENO - NOME_STAZIONE_PARTENZA | NUMERO_TRENO - CODICE_STAZIONE
 ```
 
 
-###ELENCO STAZIONI REGIONE
+### ELENCO STAZIONI REGIONE
 
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/elencoStazioni/{ID_REGIONE}`
 
@@ -115,7 +115,7 @@ Array
 ```
 
 
-###OTTENERE LE STAZIONI ALTERNATIVE DELLA CITT
+### OTTENERE LE STAZIONI ALTERNATIVE DELLA CITTÀ
 
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/elencoStazioniCitta/{ID_STAZIONE}`
 
@@ -137,7 +137,7 @@ Array
 ```
 
 
-###CODICE NUMERICO REGIONE
+### CODICE NUMERICO REGIONE
 
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/regione/{ID_STAZIONE}`
 
@@ -146,7 +146,7 @@ RISPOSTA:	TESTO(NUMERO)
 CONTENUTO:	ID_REGIONE -> Numero
 
 
-###INFORMAZIONI STAZIONE
+### INFORMAZIONI STAZIONE
 
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/dettaglioStazione/{ID_STAZIONE}/{ID_REGIONE}`
 
@@ -218,7 +218,7 @@ stdClass Object
 ```
 
 
-###ELENCO PARTENZE E ARRIVI DELLA STAZIONE
+### ELENCO PARTENZE E ARRIVI DELLA STAZIONE
 
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/partenze/{ID_STAZIONE}/{DATA} [FORMATO: Wed Jan 07 2015 18:58:25 GMT+0100 (ora solare Europa occidentale)]`
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/arrivi/{ID_STAZIONE}/{DATA} [FORMATO: Wed Jan 07 2015 18:58:25 GMT+0100 (ora solare Europa occidentale)]`
@@ -353,7 +353,7 @@ Numero indici uguale al numero di destinazioni
 ```
 
 
-###INFORMAZIONE TRENO
+### INFORMAZIONE TRENO
 
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/andamentoTreno/{ID_STAZIONE}/{NUMERO_TRENO}`
 
@@ -538,7 +538,7 @@ CONTENUTO:
 ```
 
 
-###INFORMAZIONI TRENO
+### INFORMAZIONI TRENO
 
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/tratteCanvas/{ID_STAZIONE}/{NUMERO_TRENO}`
 
@@ -607,7 +607,7 @@ Numero indici uguale al numero di stazioni
 ```
 
 
-###OTTENERE VIAGGI
+### OTTENERE VIAGGI
 
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/soluzioniViaggioNew/{NUMERO_STAZIONE_PARTENZA}/{NUMERO_STAZIONE_ARRIVO}/{DATA} (formato: 2015-01-08T00:00:00)`
 
@@ -645,7 +645,7 @@ stdClass Object
 ```
 
 
-###INFORMAZIONI METEO
+### INFORMAZIONI METEO
 
 URL: `http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/datimeteo/0`
 
